@@ -1,0 +1,43 @@
+tr:nth-child(even) {background: grey}
+tr:nth-child(odd) {background: #FFF}
+td,th{
+    padding: 5px;
+    font-size:12px;
+    font-weight: bold;
+    border-right: 1px solid;
+}
+th{
+    border-bottom: 1px solid;
+}
+table{
+    width: 80%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+@media print {
+
+    tr:nth-child(even) {background:#C1C2C7}
+    tr:nth-child(odd) {background: #ffffff}
+    td,th{
+        padding: 5px;
+        font-size:12px;
+        font-weight: bold;
+    }
+    .no-print {
+        visibility: hidden;
+     }
+    table{
+        width: 90%;
+    }
+    body{
+        -webkit-print-color-adjust:exact !important;
+        print-color-adjust:exact !important;
+        vertical-align: auto;
+      }
+      @page 
+      {
+          size:  auto;   /* auto is the initial value */
+          margin: 0mm;  /* this affects the margin in the printer settings */
+      }
+}
