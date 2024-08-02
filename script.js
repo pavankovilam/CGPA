@@ -6,7 +6,7 @@ master_data.length=0;
   ids.map(calls)
   UserTable=document.getElementsByClassName("11-table");
 for(k=0;k<8;k++){
-  UserTable[k].innerHTML='LOADING...........';
+  UserTable[k].innerHTML='';
   //console.log(UserTable[j]);
   }
     master_data.map(display);   
