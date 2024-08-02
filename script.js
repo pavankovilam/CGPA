@@ -3,7 +3,7 @@ function looper(){
   //var regno=document.getElementById("regno").value;
 master_data.length=0;
 
-  UserTable[0].innerHTML='LOADING......';
+  //UserTable[0].innerHTML='LOADING......';
   //console.log(UserTable[j]);
  
   var ids =['13NTR0mkHaD4ZgZKuP9nlI_n4b3ESNEG3wwnNLpOCDVQ','1brDy1GElnhU_v3NLqEIE9Tl3YKPtrdeXCaBIMELG-ZY','1WqPX2eJoewB4w2Q_17tVJ8GjxYGdNVSflk55wIbiuhI','1RpvSwZpXbwa1NX3q9pLvMYUvpYy-QUARr5_0uNc7FQA','1d8oCLTDPYEIDOqCamQdwS3pOXaqSNXdS3Z1ZfHjYJmM','1GzhTDKDRl3jAixRsH-h8T26Q-GdfR0TTKNZYoYgRrv8','17yEMbhfXFi3zJHSN8CxMMfe7MkCnrdwG-jMsWScUSPM','1ij0a0yQFBLyCcKJmriyEPxSRQ2mXLI8foFJ21WUUlIc'];
